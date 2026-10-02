@@ -41,3 +41,5 @@ Heavy mass also flattens temperature swings, turning a harsh 20-degree outdoor s
 ![Image](images/8.jpg)   
 6. Furthermore, try to run Galapagos to optimize the thickness of walls, roof...
 ![Image](images/9.jpg)  
+
+[name](Thermal Mass Experiment.gh)

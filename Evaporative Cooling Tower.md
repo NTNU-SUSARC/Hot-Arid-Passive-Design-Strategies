@@ -47,8 +47,6 @@ By referring to the the Energy Plus Object, specific outputs from the simulation
 
 ## 2. Simulation Outputs/Results
 
-To understand the effect of Evaporative cooling, two scenarios are simulated, i.e., with and without the Cooling tower.
-
 ### 2.1 Reading the Custom Results
 ![Custom Results reading](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/a64fa2c539c52175742e0c354329a12b7c22b957/GH%20Images/custom_results_ECT.png)
 
@@ -56,6 +54,9 @@ To understand the effect of Evaporative cooling, two scenarios are simulated, i.
 
 
 ### 2.2 Energy Balance Chart comparison
+
+To understand the effect of Evaporative cooling, two scenarios are simulated, i.e., with and without the Cooling tower.
+
 
 **Scenario 1: _Without_ the Evaporative Cooling tower:**
 

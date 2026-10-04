@@ -20,37 +20,43 @@ To Run the simulation, some inputs are required to be set by the users, as shown
 
 The case example is simulated for the city of Aswan, Egypt. By extracting the Dry Bulb Temperature chart, as shown below, we see that the summer months can be overheated and dry, and can potentially benefit from the passive cooling strategy of Evaporative Cooling.
 
-![Hourly Dry Bulb Temperature_Aswan_Egypt](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/a64fa2c539c52175742e0c354329a12b7c22b957/GH%20Images/DBT_Aswan.PNG)
+<img width="3220" height="1144" alt="DBT_Aswan" src="https://github.com/user-attachments/assets/98b5c0ee-f76b-4a31-9c57-8cb0eee09f17" />
+
 
 ### 1.2 Setting up the Energy Zone
 
-![Zone Modelling](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/a64fa2c539c52175742e0c354329a12b7c22b957/GH%20Images/Geometry.PNG)
+<img width="1962" height="1386" alt="Geometry" src="https://github.com/user-attachments/assets/9743bcdf-e6d4-4149-bdd0-78496397cb7d" />
+
 
 ### 1.3 Additional string for the tower
 
 Since there are no Grasshopper components in Honeybee to model these things, you will have to add them to the HB EnergyPlus model using the additionalStrings_ input on the Openstudio or EnergyPlus components.
 
-![Tower Geometry](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/a64fa2c539c52175742e0c354329a12b7c22b957/GH%20Images/Script_tower.png)
+<img width="8639" height="2205" alt="Script_tower" src="https://github.com/user-attachments/assets/dc060923-6d28-42e6-8b2d-105962d71799" />
+
 
 ### 1.4 Setting up the Seasonal Schedule for the Tower
 
 It is important to find the overheated period for your weather, to make the most of the evaporative cooling effects, and avoid having an opposite effect on the total energy loads.
 
-![Seasonal and Weekly Scheduling for the tower operation](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/a64fa2c539c52175742e0c354329a12b7c22b957/GH%20Images/Script_Scheduling.png)
+<img width="3938" height="1662" alt="Script_Scheduling" src="https://github.com/user-attachments/assets/835536ac-7b28-4301-b969-21486e08fc4c" />
 
 ### 1.5 Setting up the Simulation Setup for custom outputs
 
 By referring to the the Energy Plus Object, specific outputs from the simulation can be demanded.
 
-![Simulation Setup](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/a64fa2c539c52175742e0c354329a12b7c22b957/GH%20Images/simulation%20setup_ECT.png)
+<img width="3208" height="1333" alt="simulation setup_ECT" src="https://github.com/user-attachments/assets/82953a69-d674-43ea-9e86-e0ac54aacf38" />
+
 
 
 ## 2. Simulation Outputs/Results
 
 ### 2.1 Reading the Custom Results
-![Custom Results reading](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/a64fa2c539c52175742e0c354329a12b7c22b957/GH%20Images/custom_results_ECT.png)
 
-![Zone Sensible Heat Energy Loss](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/a60900103b8d67f5e932cd24a26844bb656e3347/GH%20Images/Zone%20Sensible%20Loss_ECT.png)
+<img width="3079" height="881" alt="Zone Sensible Loss_ECT" src="https://github.com/user-attachments/assets/75928d87-fe7c-4ba5-97ce-354a8cc438e5" />
+
+<img width="3503" height="969" alt="custom_results_ECT" src="https://github.com/user-attachments/assets/20ebd315-4db9-4ed8-99b4-87efc3525e0c" />
+
 
 
 ### 2.2 Energy Balance Chart comparison
@@ -60,8 +66,8 @@ To understand the effect of Evaporative cooling, two scenarios are simulated, i.
 
 **Scenario 1: _Without_ the Evaporative Cooling tower:**
 
+<img width="2801" height="1002" alt="Without Evaporation_ECT png" src="https://github.com/user-attachments/assets/36eed6cf-ee46-4acc-b497-55c97b02a9b4" />
 
-![Energy Balance CHart_Without Evaporation Tower](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/a60900103b8d67f5e932cd24a26844bb656e3347/GH%20Images/Without%20Evaporation_ECT.png.png)
 
 
 
@@ -70,7 +76,7 @@ To understand the effect of Evaporative cooling, two scenarios are simulated, i.
 The Storage component here shows the heat loss due to the cooling effect of evaporative tower. It reduced the Cooling load by almost 50 %, Although the heating load is increased by 20% in this sceanrio. 
 Since this weather has a significant underheated period as well, some passive heating design techniques can also be employed to lower the heating load.
 
-![Energy Balance Chart_With Evaporation Tower](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/a60900103b8d67f5e932cd24a26844bb656e3347/GH%20Images/With%20Evaporation_ECT.png)
+<img width="2775" height="993" alt="With Evaporation_ECT" src="https://github.com/user-attachments/assets/2a8a3f35-5667-4891-a537-0460550540d8" />
 
 
 

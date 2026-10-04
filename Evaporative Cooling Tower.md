@@ -2,6 +2,13 @@
 
 A cooltower (which is sometimes referred to as a wind tower or a shower cooling tower) is a component that is intended to model a passive downdraught evaporative cooling (PDEC) that is designed to capture the wind at the top of a tower and cool the outside air using water evaporation before delivering it to a space. The air flow in these systems is natural as the evaporation process increases the density of the air causing it to fall through the tower and into the space without the aid of a fan. A cooltower typically consists of a water spray or an evaporative pad, a shaft, and a water tank or reservoir. Wind catchers to improve the wind-driven performance at the top of the tower are optional. Water is pumped over an evaporative device by water pump which is the only component consumed power for this system. This water cools and humidifies incoming air and then the cool, dense air naturally falls down through shaft and leaves through large openings at the bottom of cooltowers.
 
+
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/c325e4bb-1cf0-4038-a8da-b987b1ad13f8" />
+
+_Concept: Passive down-draught evaporative cooling (PDEC)_ [_Image Source_](https://www.semanticscholar.org/paper/Simulation-of-passive-down-draught-evaporative-in-Kang-Strand/ac834a3993fb2bb16018c06f4f38f784f04557e2)
+
+
+
 The shower cooling tower can be controlled by a schedule and the specification of maximum water flow rate and volume flow rate as well as minimum indoor temperature. The actual flow rate of water and air can be controlled as users specify the fractions of water loss and flow schedule. The required input fields include effective tower height and exit area to obtain the temperature and flow rate of the air exiting the tower. A schedule and rated power for the water pump are also required to determine the power consumed. The component typically has a stand alone water system that is not added to the water consumption from mains. However, users are required to specify the water source through an optional field, the name of water supply storage tank, in case any water comes from a water main. The model is described more fully in the Engineering Reference document.
 
 This model requires weather information obtained from either design day or weather file specifications. The control is accomplished by either specifying the water flow rate or obtaining the velocity at the outlet with inputs and weather conditions when the water flow rate is unknown. As with infiltration, ventilation, and earth tubes, the component is treated in a similar fashion to “natural ventilation” in EnergyPlus.

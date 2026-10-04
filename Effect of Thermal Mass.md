@@ -42,4 +42,10 @@ Heavy mass also flattens temperature swings, turning a harsh 20-degree outdoor s
 6. Furthermore, try to run Galapagos to optimize the thickness of walls, roof...
 ![Image](images/9.jpg)  
 
-[name](Thermal Mass Experiment.gh)
+
+## Downloads (released_03-10-2026)
+
+***The files use the Ladybug 1.10 version.***
+
+[Download the Grasshopper File here](https://github.com/NTNU-SUSARC/Hot-Arid-Passive-Design-Strategies/blob/8d9b34c5a69f64cc3bec18fd7818ab7ec7b76ec5/Files-Scripts/Thermal%20Mass%20Experiment.gh)
+

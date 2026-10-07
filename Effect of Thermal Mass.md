@@ -1,4 +1,4 @@
-# Effect of Thernal Mass
+# Effect of Thermal Mass
 Thermal mass describes a materials ability to store heat from surrounding air or surfaces.
 
 Generally speaking, the denser the material, the better the thermal capacity.

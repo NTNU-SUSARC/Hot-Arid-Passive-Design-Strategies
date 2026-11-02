@@ -91,6 +91,6 @@ Since this weather has a significant underheated period as well, some passive he
 
 ***The files are created in Rhino 7 and use the Ladybug 1.10 version.***
 
-[Download the Rhino File here](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/b4835dd071a91f7e8b08557ce84773b7ba5ad4c6/Working%20Files/03_10_2026_Evaporative%20Cooling%20tower.3dm)
+[Download the Rhino File here](https://github.com/NTNU-SUSARC/Hot-Arid-Passive-Design-Strategies/blob/6eede3578c3dd390bf80391d0a914293eb22a53c/Files-Scripts/03_10_2026_Evaporative%20Cooling%20tower.3dm)
 
-[Download the Grasshopper file here](https://github.com/ntnu-susarc-cbf/GH-Scripts-2026/blob/b4835dd071a91f7e8b08557ce84773b7ba5ad4c6/Working%20Files/03_10_2026_Evaporative%20Cooling%20tower.gh)
+[Download the Grasshopper file here](https://github.com/NTNU-SUSARC/Hot-Arid-Passive-Design-Strategies/blob/6eede3578c3dd390bf80391d0a914293eb22a53c/Files-Scripts/03_10_2026_Evaporative%20Cooling%20tower.gh)

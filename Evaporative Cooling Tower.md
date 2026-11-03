@@ -39,6 +39,9 @@ The case example is simulated for the city of Aswan, Egypt. By extracting the Dr
 
 Since there are no Grasshopper components in Honeybee to model these things, you will have to add them to the HB EnergyPlus model using the additionalStrings_ input on the Openstudio or EnergyPlus components.
 
+> [!NOTE]
+> It might be worthwhile to read through the EnergyPlus Input/Output reference on evaporative cooling objects so that you are able to ask the right types of questions when simulating your design for evaporative cooling. [Read Here](https://bigladdersoftware.com/epx/docs/8-0/input-output-reference/page-052.html#group-evaporative-coolers)
+
 <img width="8639" height="2205" alt="Script_tower" src="https://github.com/user-attachments/assets/dc060923-6d28-42e6-8b2d-105962d71799" />
 
 

@@ -1,4 +1,3 @@
-# Hot-Arid-Passive-Design-Strategies
 # Hot-Arid Passive Design Strategies
 
 Hot-arid climates combine intense solar radiation, very hot days, low

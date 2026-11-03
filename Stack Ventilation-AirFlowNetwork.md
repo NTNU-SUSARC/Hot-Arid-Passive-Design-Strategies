@@ -88,14 +88,11 @@ Compared to the default single-zone methods that Honeybee uses for infiltration 
 https://2030palette.org/stack-ventilation/
 
 
-## Downloads_release (03-11-2026)
+### Downloads (Released 03-11-2026)
 
+***The files are created in Rhino 7 and use the Ladybug 1.10 version.***
 
-
-
-
-
-### Downloads (Released 04-10-2026)
+[Download the Grasshopper File here](https://github.com/NTNU-SUSARC/Hot-Arid-Passive-Design-Strategies/blob/78088de6bf3d66187db30f12045e9a7a6ee9ed39/Files-Scripts/03_11_2026_Stack%20Ventilation_AFN.gh)
 
 
 

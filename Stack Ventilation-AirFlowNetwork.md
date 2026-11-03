@@ -12,7 +12,7 @@ The focus of this script is to test the role of The chimney effect as a ventilat
 Openings located low and high, and on opposite sides of a space, create a ‘stack effect’ – warm indoor air rising out through high openings, drawing in cooler outdoor air through low openings.
 Using the air’s buoyancy resulting from a difference in its temperature – climates with a minimum 1.7°C (3°F) difference between indoor and outdoor temperatures – the stack effect in a space, or within a ventilation shaft, will induce an air current that removes hot air from a space or building.
 
-Guidelines for locating inlet and outlet openings:
+**Guidelines for locating inlet and outlet openings:**
 
 Residential spaces – a minimum of 3 meters (10 feet) apart in height.
 
@@ -24,12 +24,37 @@ The greater the height between openings, the greater the air movement. Locate in
 
 ### 1. Simulation Setup and Inputs
 
-**1.1. Zone Geometry**
+**1.1. INPUT_Zone Geometry**
+
+<img width="500" height="500" alt="Screenshot (856)" src="https://github.com/user-attachments/assets/5e8c3c15-9135-4d8a-97ea-9ed16ca2a07b" />
+
+
+<img width="2144" height="1497" alt="INPUR-GEO" src="https://github.com/user-attachments/assets/5e080d94-93de-4160-847f-a7a383b20386" />
+
+<img width="1228" height="979" alt="NO MECH VENT" src="https://github.com/user-attachments/assets/e41613ca-048f-43e2-8418-b2c606f8ee83" />
+
+
+**1.1. INPUT_Chimney Geometry**
+<img width="3158" height="1151" alt="INPUR-chi" src="https://github.com/user-attachments/assets/26d9810d-bfcc-47e4-a93f-d6a7f5b0ba5a" />
+
+<img width="1822" height="1983" alt="SCHEDULE CHIM" src="https://github.com/user-attachments/assets/5437354a-df3e-4a42-a967-2e1a2cb546ec" />
+
+
+**1.1. INPUT_Weather file and Analysis Period**
+<img width="1727" height="1272" alt="INPUR-WEA" src="https://github.com/user-attachments/assets/7cdf9f74-eea7-4b95-99dd-55cc5d991bb2" />
+
+
+<img width="724" height="790" alt="Screenshot (851)" src="https://github.com/user-attachments/assets/26bf298d-ddb2-4a4c-aa50-7370f06aa4c3" />
 
 
 **1.2. Air Flow Network**
 
 Compared to the default single-zone methods that Honeybee uses for infiltration and ventilation, the AFN represents air flow in a manner that is truer to the fluid dynamic behavior of real buildings. In particular, the AFN more accurately models the flow of air from one zone to another, accounting for the pressure changes induced by wind and air density differences. 
+
+<img width="2068" height="2137" alt="CASES" src="https://github.com/user-attachments/assets/d0f40d0a-37ee-45e7-96f1-f4f80bc32adc" />
+
+<img width="2401" height="1176" alt="AFN RESULTS" src="https://github.com/user-attachments/assets/bbddcdb2-5f80-458e-a448-19b40d3a579b" />
+
 
 > [!CAUTION]
 > Using the AFN means that the simulation will take considerably longer to run compared to the single zone option and the difference in simulation results is only likely to be significant when the Model contains operable windows or the building is extremely leaky.
@@ -39,13 +64,33 @@ Compared to the default single-zone methods that Honeybee uses for infiltration 
 
 ### 2. Simulation Outputs/Results
 
+<img width="993" height="813" alt="Screenshot (848)" src="https://github.com/user-attachments/assets/59b7a2d4-5fe2-428c-92f1-03890165f876" />
 
+<img width="3967" height="754" alt="COMFORT RESULT" src="https://github.com/user-attachments/assets/354dcf86-d0b2-4c57-bec8-7f6609f1c2f3" />
+
+
+<img width="1000" height="810" alt="Screenshot (850)" src="https://github.com/user-attachments/assets/099056f9-1481-4653-a563-7a5437f40ecd" />
+
+
+<img width="828" height="812" alt="Screenshot (856)" src="https://github.com/user-attachments/assets/6928abb1-3a0c-4212-a905-ea69e6709390" />
+
+
+<img width="2401" height="1176" alt="AFN RESULTS" src="https://github.com/user-attachments/assets/295c5f66-0107-468c-b67c-8d118dd0899e" />
+
+<img width="769" height="827" alt="Screenshot (855)" src="https://github.com/user-attachments/assets/e92a5a97-1868-47ba-ae7b-0682c67cba7d" />
+
+<img width="755" height="835" alt="Screenshot (854)" src="https://github.com/user-attachments/assets/eae79ef6-a946-428f-b02c-6f0f37d275ce" />
 
 
 ### Reference Readings
 [https://www.mdpi.com/2076-3417/11/19/9185](https://www.mdpi.com/2076-3417/11/19/9185)
 
 https://2030palette.org/stack-ventilation/
+
+
+## Downloads_release (03-11-2026)
+
+
 
 
 

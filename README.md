@@ -32,10 +32,10 @@ and Grasshopper is helpful; no prior Ladybug Tools experience is needed.
 3. Load your own EPW weather file and adjust the inputs described on the strategy page.
 
 ## Requirements
-Rhino / Grasshopper, Ladybug Tools (Ladybug, Honeybee). Tested versions: [add versions].
+Rhino 7 / Grasshopper, Ladybug Tools (Ladybug, Honeybee). Tested versions: [1.10].
 
 ## Licence and citation
 Released under the MIT licence. If you use this material in teaching or
-research, please cite: [add citation / DOI].
+research, please cite this repository.
 
-Part of the NTNU SUSARC collection of climate-specific passive design resources.
+Part of the NTNU SUSARC collection of climate-specific passive design script Bank.

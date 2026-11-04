@@ -82,8 +82,6 @@ Compared to the default single-zone methods that Honeybee uses for infiltration 
 
 ### 2. Simulation Outputs/Results
 
-<img width="993" height="813" alt="Screenshot (848)" src="https://github.com/user-attachments/assets/59b7a2d4-5fe2-428c-92f1-03890165f876" />
-
 <img width="3967" height="754" alt="COMFORT RESULT" src="https://github.com/user-attachments/assets/354dcf86-d0b2-4c57-bec8-7f6609f1c2f3" />
 
 

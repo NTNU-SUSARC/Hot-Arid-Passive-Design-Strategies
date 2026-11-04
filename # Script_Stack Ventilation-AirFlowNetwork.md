@@ -26,21 +26,39 @@ The greater the height between openings, the greater the air movement. Locate in
 
 **1.1. INPUT_Zone Geometry**
 
+**TEST CASE 1_No Chimney**
+The simulated energy zone is an 8m X 8m X 3m room. To showcase the effects of stack ventilation, there is a primary inlet aperture, with a window shade object, constructed in the middle of its face towards the prevailing wind direction. Along with it, a smaller outlet aperature is constructed at a higher sill level on the ooposite face to enable cross ventilation.
+
 <img width="500" height="500" alt="Screenshot (856)" src="https://github.com/user-attachments/assets/5e8c3c15-9135-4d8a-97ea-9ed16ca2a07b" />
 
 
+
 <img width="2144" height="1497" alt="INPUR-GEO" src="https://github.com/user-attachments/assets/5e080d94-93de-4160-847f-a7a383b20386" />
+
+
+For a naturally ventilated building, as in this test case, we do not need the mechanical ventilation systems. It can be turned off like this:
 
 <img width="1228" height="979" alt="NO MECH VENT" src="https://github.com/user-attachments/assets/e41613ca-048f-43e2-8418-b2c606f8ee83" />
 
 
 **1.1. INPUT_Chimney Geometry**
+
+
+**TEST CASE 2_With Chimney**
+
+An outlet chimney with apertures is provided on top of the energy zone, on the opposite side as that of the inlet aperture.
+The greater the height difference and temperature difference, the stronger the effect. 
 <img width="3158" height="1151" alt="INPUR-chi" src="https://github.com/user-attachments/assets/26d9810d-bfcc-47e4-a93f-d6a7f5b0ba5a" />
 
+Due to high diurnal differences in temperatures, the chimney apertures are given a constant schedule where they are only operable between the cooler hours, as found in the particular weather file, from 1AM to 4AM. This enables night coolth.
 <img width="1822" height="1983" alt="SCHEDULE CHIM" src="https://github.com/user-attachments/assets/5437354a-df3e-4a42-a967-2e1a2cb546ec" />
 
 
 **1.1. INPUT_Weather file and Analysis Period**
+
+Stack ventilation (the stack or chimney effect) requires a minimum temperature difference (Δ T) of 1.7°C (3°F) between the interior and exterior air to generate sufficient buoyancy and drive natural airflow. Source: [Architecture2030 palette](https://2030palette.org/stack-ventilation/).
+Therefore, to get the best out of the chimney, it should be operable on days when outdoor air is cooler than indoor air, bringing cooler outdoor air indoors to reduce the cooling load.
+
 <img width="1727" height="1272" alt="INPUR-WEA" src="https://github.com/user-attachments/assets/7cdf9f74-eea7-4b95-99dd-55cc5d991bb2" />
 
 
